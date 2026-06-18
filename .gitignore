@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 环境与密钥（绝不提交）
+.env
+.env.*
+*.key
+secrets/
+
+# 数据（原始/清洗数据不进版本库）
+data/
+*.parquet
+*.csv
+*.duckdb
+
+# 工具/系统
+.DS_Store
+.idea/
+.vscode/
+*.log
